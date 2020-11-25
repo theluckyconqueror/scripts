@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 require 'digest'
-require 'fileutils'
 
 test_file = ARGV[0]
 command = "ruby --verbose #{test_file}"
